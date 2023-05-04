@@ -1,0 +1,25 @@
+package io.javabrains;
+
+public class ClosuresExample {
+
+	public static void main(String[] args) {
+		int a = 10;
+		doProcess(a, new Process() {
+
+			@Override
+			public void proceess(int i) {
+				System.out.println(i);
+			}
+		});
+
+	}
+
+	public static void doProcess(int i, Process p) {
+		p.proceess(i);
+	}
+
+}
+
+interface Process {
+	void proceess(int i);
+}

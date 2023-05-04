@@ -1,0 +1,41 @@
+greetingFunction = () -> System.out.print("Hello world");
+
+greet(greetingFunction);
+or
+greet(() -> System.out.print("Hello world"));
+
+public void greet(____) {
+ 	____();
+}
+
+------------------------------------------------------------------
+
+doubleNumberFunction = public int double(int a){
+	return a * 2;
+}
+
+transforms to lambda
+
+doubleNumberFunction = (int a) -> a * 2;
+
+
+------------------------------------------------------------------
+
+addFuncion = (int a, int b) -> a + b;
+
+------------------------------------------------------------------
+
+safeDivideFunction = (int a, int b) -> {
+	if(b == 0) return 0;
+	return a / b; 
+};
+
+-------------------------------------------------------------------
+
+stringLengthCountFunction = (String s) -> s.length();
+
+
+
+
+
+

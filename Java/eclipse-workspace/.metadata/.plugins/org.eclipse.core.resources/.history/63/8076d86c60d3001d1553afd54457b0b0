@@ -1,0 +1,7 @@
+greetingFunction = () -> System.out.print("Hello world");
+
+greet(greetingFunction);
+
+public void greet(____) {
+ 	____();
+}

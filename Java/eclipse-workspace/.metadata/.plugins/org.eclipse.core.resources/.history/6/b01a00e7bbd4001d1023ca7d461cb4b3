@@ -1,0 +1,9 @@
+package io.javabrains;
+
+public class ThisReferenceExample {
+	
+	public void doProcess(int i, Process p) {
+		p.proceess(i);
+	}
+
+}

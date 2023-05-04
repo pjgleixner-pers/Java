@@ -1,0 +1,16 @@
+package io.javabrains;
+
+public class Greeter {
+	
+	private void greet() {
+		System.out.print("Hello world!");
+
+	}
+
+	public static void main(String[] args) {
+		Greeter greeter = new Greeter();
+		greeter.greet();
+
+	}
+
+}

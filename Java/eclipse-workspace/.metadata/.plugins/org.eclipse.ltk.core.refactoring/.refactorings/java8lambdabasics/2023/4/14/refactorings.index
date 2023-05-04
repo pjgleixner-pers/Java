@@ -1,0 +1,7 @@
+1680664016829	Move compilation unit
+1680664059905	Delete element
+1680731895418	Encapsulate field 'firstName'
+1680731904440	Encapsulate field 'lastName'
+1680731917208	Encapsulate field 'age'
+1680815335005	Copy compilation unit
+1680817435019	Extract local variable 'count'
